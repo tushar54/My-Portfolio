@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Eco-Advanture",
+      "description": "A project built using React, Tailwind CSS, DaisyUI, and Firebase.",
+      "image":"../src/assets/Capture1532.JPG",
+      "stack": ["React", "Tailwind CSS", "DaisyUI", "Firebase"],
+      "liveLink": "#", 
+      "githubLink": "#" 
+    },
+    {
+      "id": 2,
+      "name": "Service Portal",
+      "description": "A project built using React, Tailwind CSS, MongoDB, Express, and Firebase.",
+      "image":"../src/assets/Capture1415.JPG",
+      "stack": ["React", "Tailwind CSS", "MongoDB", "Express", "Firebase"],
+      "liveLink": "#", 
+      "githubLink": "#" 
+    },
+    {
+      "id": 3,
+      "name": " Movie Portal",
+      "description": "A project built using React, Tailwind CSS, MongoDB, Node.js, and Firebase.",
+      "image":"../src/assets/Capture1532.JPG",
+      "stack": ["React", "Tailwind CSS", "MongoDB", "Node.js", "Firebase"],
+      "liveLink": "#", 
+      "githubLink": "#" 
+    }
+  ]
+  

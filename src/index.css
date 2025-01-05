@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes border-animation {
+    0% {
+      border-color: transparent;
+      border-top-color: blue;
+    }
+    25% {
+      border-color: transparent;
+      border-right-color: blue;
+    }
+    50% {
+      border-color: transparent;
+      border-bottom-color: blue;
+    }
+    75% {
+      border-color: transparent;
+      border-left-color: blue;
+    }
+    100% {
+      border-color: transparent;
+      border-top-color: blue;
+    }
+  }
+  
