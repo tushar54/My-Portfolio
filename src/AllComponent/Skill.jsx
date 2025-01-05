@@ -10,7 +10,7 @@ import Marquee from "react-fast-marquee";
 const Skill = forwardRef((props,ref) => {
     return (
         <div className='mt-10' ref={ref}>
-            <h1 className='text-center text-3xl font-bold border-b-2 w-2/12 mx-auto' >Skill</h1>
+            <h1 className='text-center text-3xl font-bold border-b-blue-600 border-b-2  w-2/12 mx-auto ' >Skill</h1>
          <Marquee>
          <div className='flex justify-center items-center gap-5 my-10'>
                 <motion.div whileHover={{ scale: 1.2 }}

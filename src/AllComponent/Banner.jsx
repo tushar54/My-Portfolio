@@ -12,15 +12,16 @@ const Banner = () => {
             backgroundRepeat: 'no-repeat',
         }} className='grid md:grid-cols-2 justify-center items-center mt-10 p-10 '>
             <div className='col-span-1 flex flex-col justify-center items-center space-y-5 '>
-                <h1 className='text-3xl font-bold'>Front-End Developer</h1>
-                <p className=' text-lg font bold'>I Make Beautiful Landing Page</p>
+                <h1 className='text-3xl font-bold'> "Hi! I'm Tushar, a Front-End Developer."</h1>
+                <p className=' text-lg font-bold '>I Make Beautiful Landing Page</p>
                 <div className='flex justify-center items-center gap-10 *:text-3xl'>
-                    <Link className='text-blue-600'><FaFacebook /></Link>
-                    <Link className='text-black'><FaGithub /></Link>
-                    <Link className='text-blue-600'><FaLinkedin /></Link>
+                    <Link to={'https://www.facebook.com/tushar.ahmed.52289'} className='text-blue-600'><FaFacebook /></Link>
+                    <Link to={'https://github.com/tushar54'} className='text-black'><FaGithub /></Link>
+                    <Link to={'https://www.linkedin.com/in/tushar-ahmed-49b9a1337/'} className='text-blue-600'><FaLinkedin /></Link>
                     <Link className='text-blue-600'><FaTwitter /></Link>
 
                 </div>
+                <div><Link to={'https://docs.google.com/document/d/1pb9-W-mp6cAaU_eFIfnT6k70TLaYxo3foeFe6A0-oYY/edit?tab=t.0'} className=' border-2 border-blue-500 px-3 py-2 rounded-lg font-bold'>Download Resume</Link></div>
             </div>
 
             <div className='col-span-1 flex justify-center items-center '>

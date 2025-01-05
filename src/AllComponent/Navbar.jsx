@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../assets/1735984195457-removebg-preview (1).png'
 import { SiCodersrank } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = ({onScrollToEducation,onScrollToSkill,onScrollToAboutMe,onScrollToContact,onScrollToProject }) => {
@@ -12,7 +13,7 @@ const Navbar = ({onScrollToEducation,onScrollToSkill,onScrollToAboutMe,onScrollT
       <li><button onClick={onScrollToProject}>Projects</button></li>
       </>
     return (
-      <div className=" sticky top-0 z-10 navbar bg-base-100 ">
+      <div className=" sticky top-0 z-10 navbar bg-base-100 border-b-2 border-b-blue-500">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +44,7 @@ const Navbar = ({onScrollToEducation,onScrollToSkill,onScrollToAboutMe,onScrollT
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Hire Me</a>
+  <Link to={'https://docs.google.com/document/d/1pb9-W-mp6cAaU_eFIfnT6k70TLaYxo3foeFe6A0-oYY/edit?tab=t.0'} className=' border-2 border-blue-500 px-3 py-2 rounded-lg font-bold'>Download Resume</Link>
   </div>
 </div>
     );

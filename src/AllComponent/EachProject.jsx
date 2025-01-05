@@ -3,9 +3,9 @@ import React from 'react';
 const EachProject = ({project}) => {
     // console.log(project)
     return (
-        <div className="card bg-base-100 w-96 shadow-xl justify-center items-center">
+        <div className="card bg-base-100 md:w-80 lg:w-96 shadow-xl justify-center items-center">
         <figure>
-          <img
+          <img className='w-[300px]'
             src={project.image}
             alt="Shoes" />
         </figure>

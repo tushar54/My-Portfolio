@@ -30,7 +30,7 @@ const Contact = forwardRef((props,ref) => {
     return (
         <div className='mt-8' ref={ref}>
            
-            <h1 className='text-center text-3xl font-bold border-b-2 w-2/12 mx-auto mb-6'>
+            <h1 className='text-center text-3xl font-bold  border-b-blue-600 border-b-2 w-2/12 mx-auto mb-6'>
                 Contact Me
             </h1>
             <h1 className='text-blue-400 font-bold text-2xl pl-4'>Send Your Mail</h1>
