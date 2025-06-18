@@ -6,23 +6,23 @@
 @keyframes border-animation {
     0% {
       border-color: transparent;
-      border-top-color: blue;
+      border-top-color: rgb(255, 0, 234);
     }
     25% {
       border-color: transparent;
-      border-right-color: blue;
+      border-right-color: rgb(116, 116, 255);
     }
     50% {
       border-color: transparent;
-      border-bottom-color: blue;
+      border-bottom-color: rgb(183, 8, 226);
     }
     75% {
       border-color: transparent;
-      border-left-color: blue;
+      border-left-color: rgb(154, 66, 255);
     }
     100% {
       border-color: transparent;
-      border-top-color: blue;
+      border-top-color: rgb(58, 58, 248);
     }
   }
   

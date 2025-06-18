@@ -15,7 +15,7 @@ const Education = forwardRef((props, ref) => {
   return (
     <section ref={ref} className="py-10 text-center w-3/4 mx-auto">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8 border-2 border-b-blue-500 mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-8 border-2 border-b-fuchsia-600 w-[200px] mx-auto">
           Education
         </h2>
         <div className="">

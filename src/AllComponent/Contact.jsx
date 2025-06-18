@@ -30,8 +30,8 @@ const Contact = forwardRef((props,ref) => {
     return (
         <div className='mt-8' ref={ref}>
            
-          <h1 className='text-center text-3xl font-bold  border-b-blue-600 border-b-2  mx-auto mb-10 w-[200px]' >Contact Me</h1>
-            <h1 className='text-blue-400 font-bold text-2xl pl-4'>Send Your Mail</h1>
+          <h1 className='text-center text-3xl font-bold  border-b-fuchsia-600 border-b-2  mx-auto mb-10 w-[200px]' >Contact Me</h1>
+            <h1 className='text-fuchsia-500 font-bold text-2xl pl-4'>Send Your Mail</h1>
            <div className='grid md:grid-cols-2 justify-center items-center gap-6'>
            <div className="bg-white p-10 rounded-lg shadow-lg max-w-xl mx-auto">
                 <p className="text-slate-700 mb-4 text-center text-lg font-semibold ">
@@ -86,7 +86,7 @@ const Contact = forwardRef((props,ref) => {
             </div>
             <div className='space-y-5 text-slate-700 pl-6'>
                 <h1 className='text-2xl font-bold flex  gap-4 items-center'> <IoCall className='text-green-600' /> +8801303078081</h1>
-                <h1 className='text-2xl font-bold flex gap-4 items-center'> <SiGmail className='text-blue-400' />tusharahmed7083@gmail.com</h1>
+                <h1 className='text-2xl font-bold flex gap-4 items-center'> <SiGmail className='text-blue-400 text-sm' />tusharahmed7083@gmail.com</h1>
                 <h1 className='text-2xl font-bold flex gap-4 items-center'> <CiLocationOn className='text-green-600'/>Dhaka,Bangladesh</h1>
             </div>
            </div>
