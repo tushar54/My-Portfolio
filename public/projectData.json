@@ -1,30 +1,127 @@
 [
-    {
-      "id": 1,
-      "name": "Eco-Advanture",
-      "description": "A project built using React, Tailwind CSS, DaisyUI, and Firebase.",
-      "image":"../src/assets/Capture1532.JPG",
-      "stack": ["React", "Tailwind CSS", "DaisyUI", "Firebase"],
-      "liveLink": "#", 
-      "githubLink": "#" 
-    },
-    {
-      "id": 2,
-      "name": "Service Portal",
-      "description": "A project built using React, Tailwind CSS, MongoDB, Express, and Firebase.",
-      "image":"../src/assets/Capture1415.JPG",
-      "stack": ["React", "Tailwind CSS", "MongoDB", "Express", "Firebase"],
-      "liveLink": "#", 
-      "githubLink": "#" 
-    },
-    {
-      "id": 3,
-      "name": " Movie Portal",
-      "description": "A project built using React, Tailwind CSS, MongoDB, Node.js, and Firebase.",
-      "image":"../src/assets/Capture1532.JPG",
-      "stack": ["React", "Tailwind CSS", "MongoDB", "Node.js", "Firebase"],
-      "liveLink": "#", 
-      "githubLink": "#" 
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "miCroTask",
+    "description": "It’s a micro-tasking and earning platform with three roles: Admin, Worker, and Buyer, each having specific tasks. Role protection is implemented on both the client and server sides.",
+    "stack": [
+      "React",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      "node",
+      "Express",
+      "MongoDB"
+    ],
+    "image": "/asset/image.jpg",
+    "liveLink": "https://micro-service-ef6a7.web.app/",
+    "githubLink": "https://github.com/tushar54/microTask-client-side",
+    "githubserver": "https://github.com/tushar54/microTask-server-side",
+    
+      "project_description": "The Micro Tasking and Earning Platform is a MERN stack-based web application designed to connect Workers and Buyers for micro-task management and completion. It includes role-specific functionalities, such as Workers earning coins by completing tasks, Buyers managing tasks and payments, and Admins overseeing platform operations. The platform incorporates secure authentication, responsive design, and dynamic features for an optimized user experience.",
+      "challenges_faced": [
+        "Implementing role-based authorization for secure access to resources.",
+        "Ensuring token-based authentication with secure storage in the browser.",
+        "Integrating the Stripe payment gateway for purchasing coins and processing withdrawals.",
+        "Handling real-time notifications for task approvals, submissions, and withdrawals.",
+        "Managing pagination for Worker submissions to enhance user experience.",
+        "Uploading and managing images using ImageBB for tasks and user profiles.",
+        "Designing and implementing responsive layouts for dashboards and home pages.",
+        "Handling edge cases like insufficient coin balance during task creation or withdrawals.",
+        "Validating input fields for registration, login, and form submissions.",
+        "Maintaining database integrity with multiple collections and complex relations."
+      ],
+      "potential_improvements": [
+        "Integrating automated email notifications for task status updates and payment confirmations.",
+        "Adding advanced search and filter functionality for tasks based on criteria like deadline, reward, and status.",
+        "Implementing a reporting system for invalid submissions to improve platform accountability.",
+        "Enhancing the notification system with real-time updates using WebSocket or Firebase.",
+        "Introducing analytics dashboards for all roles to visualize performance metrics.",
+        "Implementing a referral system for new users to promote platform growth.",
+        "Adding language localization support to reach a wider audience.",
+        "Optimizing database queries for improved performance on larger datasets."
+      ],
+      "future_plans": [
+        "Developing a mobile app for Android and iOS to expand accessibility.",
+        "Implementing AI-based task recommendations to improve user engagement.",
+        "Exploring blockchain integration for secure transactions and task tracking.",
+        "Introducing a gamification system with badges and rewards to motivate users.",
+        "Adding multi-currency support for international users."
+      ]
+  },
+  {
+    "id": 2,
+    "name": "Service Portal",
+    "description": "This is a service-providing platform where users can offer their own services and access services from others. Users can book services and efficiently manage their own offerings. and so on .",
+    "image": "/asset/Capture1415.JPG",
+    "stack": [
+      "React",
+      "Tailwind CSS",
+      "MongoDB",
+      "Node",
+      "Express",
+      "Firebase"
+    ],
+    "liveLink": "https://services-project-3a57c.web.app/",
+    "githubLink": "https://github.com/tushar54/get-your-service",
+    "githubserver": "https://github.com/tushar54/get-your-service-server-side",
+    "project_description": "The Service Sharing Web Application is a versatile and user-friendly platform that connects service providers with users seeking various services. It allows users to efficiently share, manage, book, and update services through an interactive and visually appealing interface. The goal of this project is to develop a dynamic, responsive, and accessible system that meets users’ service-sharing needs, showcasing innovative features and streamlined functionality",
+    "challenges_faced": [
+      "Implementing JWT tokens for secure access to private routes and ensuring seamless token validation on page reloads.",
+      "Handling CRUD operations with MongoDB, ensuring that service and booking data synced correctly with user interactions.",
+      "Providing meaningful error messages and handling server-side validation without disrupting the user experience."
+    ],
+    "potential_improvements": [
+      "Adding advanced search and filter functionality for tasks based on criteria like deadline, reward, and status.",
+      "Implementing a reporting system for invalid submissions to improve platform accountability.",
+      "Enhancing the notification system with real-time updates using WebSocket or Firebase.",
+      "Introducing analytics dashboards for all roles to visualize performance metrics.",
+      "Implementing a referral system for new users to promote platform growth.",
+      "Adding language localization support to reach a wider audience.",
+      "Optimizing database queries for improved performance on larger datasets."
+    ],
+    "future_plans": [
+      "Developing a mobile app for Android and iOS to expand accessibility.",
+      "Exploring blockchain integration for secure transactions and task tracking.",
+      "Introducing a gamification system with badges and rewards to motivate users.",
+      "Adding multi-currency support for international users."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Movie Portal",
+    "description": "It’s a movie portal platform where users can explore detailed movie information, add movies to their favorites or watchlist, and manage their own movie posts by updating or deleting them and so on",
+    "image": "/asset/Capture1532.JPG",
+    "stack": [
+      "React",
+      "Tailwind CSS",
+      "MongoDB",
+      "Node.js",
+      "Express",
+      "Firebase"
+    ],
+    "liveLink": "https://movie-portal-60e6f.web.app/",
+    "githubLink": "https://github.com/tushar54/movie-hut",
+    "githubserver": "https://github.com/tushar54/movie-hut-server-side",
+    "project_description": "The movie portal website is a versatile and user-friendly platform that user can add movies and get others movies which is sheared . It allows users to efficiently share, manage, book, and update their movie  through an interactive and visually appealing interface. The goal of this project is to develop a dynamic, responsive, and accessible system that meets users’ can get into the movie-hut showcasing their movies",
+    "challenges_faced": [
+      "Implementing JWT tokens for secure access to private routes and ensuring seamless token validation on page reloads.",
+      "Handling CRUD operations with MongoDB, ensuring that service and booking data synced correctly with user interactions.",
+      "Providing meaningful error messages and handling server-side validation without disrupting the user experience."
+    ],
+    "potential_improvements": [
+      "Adding advanced search and filter functionality for tasks based on criteria like deadline, reward, and status.",
+      "Implementing a reporting system for invalid submissions to improve platform accountability.",
+      "Enhancing the notification system with real-time updates using WebSocket or Firebase.",
+      "Introducing analytics dashboards for all roles to visualize performance metrics.",
+      "Implementing a referral system for new users to promote platform growth.",
+      "Adding language localization support to reach a wider audience.",
+      "Optimizing database queries for improved performance on larger datasets."
+    ],
+    "future_plans": [
+      "Developing a mobile app for Android and iOS to expand accessibility.",
+      "Exploring blockchain integration for secure transactions and task tracking.",
+      "Introducing a gamification system with badges and rewards to motivate users.",
+      "Adding multi-currency support for international users."
+    ]
+  }
+]
