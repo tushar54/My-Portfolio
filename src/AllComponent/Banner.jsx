@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import img from '../assets/1735984195457-removebg-preview (1).png'
